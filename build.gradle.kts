@@ -24,8 +24,8 @@ repositories {
 dependencies {
     compileOnly("com.velocitypowered:velocity-api:3.4.0-SNAPSHOT")
     kapt("com.velocitypowered:velocity-api:3.4.0-SNAPSHOT")
-    implementation("net.dv8tion:jda:5.0.0-beta.20")
-
+    implementation("net.dv8tion:JDA:5.3.2")
+    compileOnly("com.github.Mirik9724:MirikAPI:v0.1.5.10")
 }
 
 tasks {

@@ -1,0 +1,22 @@
+checkUpdates: true
+
+token: "TOKEN"
+masterChannelId: "123456789012345678L"
+categoryId: "876543210987654321L"
+vipRoleId: "112233445566778899L"
+
+channelPrefix: "🔊 "
+cmdLimitDesc: "Change the user limit of your voice channel"
+cmdLimitArgDesc: "New slots limit (0 to remove limit)"
+cmdRenameDesc: "Rename your current voice channel (Owner or VIP only)"
+cmdRenameArgDesc: "New channel name"
+
+errNotInChannel: "❌ You must be inside your temporary voice channel to use this command!"
+errLimitNotOwner: "❌ Only the creator of this channel can change the slots limit!"
+errLimitInvalidRange: "❌ The slots limit must be between 0 and 99!"
+errRenameNoPerms: "❌ You don't have permission to rename this channel! Owner or Enter VIP status required."
+errRenameInvalidLength: "❌ Invalid name length! Maximum allowed is 32 characters."
+
+msgLimitRemoved: "✅ Channel limit has been removed."
+msgLimitChanged: "✅ Channel limit changed to: %limit%"
+msgRenameSuccess: "✅ Channel has been successfully renamed to: **%name%**"
