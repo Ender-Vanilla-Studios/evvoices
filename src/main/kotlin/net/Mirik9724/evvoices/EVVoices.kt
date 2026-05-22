@@ -38,7 +38,7 @@ class EVVoices @Inject constructor(val logger: Logger, val server: ProxyServer) 
         conf = loadYmlFile("plugins/EVVoices/config.yml")
 
         if(conf["checkUpdates"] == "true") {
-            if(isAvailableNewVersion("https://raw.githubusercontent.com/Mirik9724/EVVoices/refs/heads/master/v.txt", BuildConstants.VERSION)){
+            if(isAvailableNewVersion("https://raw.githubusercontent.com/Ender-Vanilla-Studios/EVVoices/refs/heads/master/v.txt", BuildConstants.VERSION)){
                 logger.info("New version available")
             }
         }
